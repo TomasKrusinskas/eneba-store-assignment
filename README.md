@@ -2,6 +2,11 @@
 
 A game store web application built with React (frontend) and Node.js + Express (backend), using SQLite as the database. Matches the Eneba store design with search functionality.
 
+## Live Demo
+
+- **Frontend:** https://striking-gratitude-production-6809.up.railway.app
+- **Backend API:** https://eneba-store-assignment-production.up.railway.app
+
 ## Games included
 
 - FIFA 23 (4 listings)
@@ -13,6 +18,7 @@ A game store web application built with React (frontend) and Node.js + Express (
 - **Frontend:** React + Vite
 - **Backend:** Node.js + Express
 - **Database:** SQLite (via better-sqlite3)
+- **Hosting:** Railway
 
 ## Running locally
 
@@ -39,6 +45,8 @@ npm run dev
 ```
 
 Frontend runs at `http://localhost:5173`
+
+> Note: When running locally, change `BACKEND_URL` in `Frontend/src/App.jsx` to `http://localhost:3000`
 
 ## API
 
