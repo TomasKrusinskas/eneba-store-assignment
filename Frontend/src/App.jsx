@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import './App.css'
 
-const BACKEND_URL = 'http://localhost:3000'
+const BACKEND_URL = 'https://eneba-store-assignment-production.up.railway.app'
 
 function useDebounce(value, delay) {
   const [debounced, setDebounced] = useState(value)
